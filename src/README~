@@ -1,0 +1,29 @@
+Part1 Program Description:
+
+ In this program, the user is able to create resizing (growing bigger & smaller) balls by a click of the mouse. The inital layout of the applet would display 2 lines, one horizontal and one vertical. These lines will be draggable and will resize along with the canvas. The balls that are created will be a certain color according to what quadrant they lie in. When the lines are dragged, the color of the balls will be accounted for. The initial layout will have text at the top along with the three buttons start/stop/clear. If stop is pressed all of the created balls will stop. If start is pressed, they will begin to resize. If clear all is pressed, all of the balls will be deleted. The initial layout also has a slider that will change the speed at which the ball/s will resize. There will be text showing how fast the balls are moving at the bottom. 
+
+Part2)
+
+1. Using vim/gvim, how can you open a file from the Linux command line so that you are taken
+directly to a specified line in the file?
+A: vim +/LineNumberHere fileName
+
+
+2. How can you quickly (with a single Linux command) change directory to a directory named
+fubar that is in your home (login) directory? You cannot change directory to your home
+directory first and then change directory to fubar. That would take two commands. State how
+you would do this with a single command no matter where your current working directory
+might be.
+A:cd /home/fubar
+
+3. What run time structure holds the local variables and formal parameters with each method
+invocation?
+A: The "call stack" or "run-time stack") 
+
+4. How can you quickly (with a single Linux command) change directory to a directory two levels
+up from your current working directory?
+A: cd dir1/dir2
+
+5. What are the only things that can be declared in a Java interface? Be specific with full access
+modifiers and keywords.
+A: You can provide any method signature, and can also define some variable that would be final public static. 
